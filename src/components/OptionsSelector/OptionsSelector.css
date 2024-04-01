@@ -1,0 +1,15 @@
+/* OptionsSelector.css */
+.options-selector {
+    margin: 1em 0;
+  }
+  
+  .options-selector label {
+    margin-right: 0.5em;
+  }
+  
+  .gost-dropdown {
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  

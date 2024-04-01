@@ -1,0 +1,26 @@
+/* ProcessedDocumentDisplay.css */
+.processed-document-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Центрирование по вертикали */
+  align-items: center; /* Центрирование по горизонтали */
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #f8f9fa;
+  color: black;
+  height: 175px; /* Установите желаемую высоту */
+  width: 275px;
+}
+
+.processed-document-display a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.processed-document-display a:hover {
+  text-decoration: underline;
+}

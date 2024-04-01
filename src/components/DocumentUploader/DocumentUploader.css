@@ -1,0 +1,27 @@
+.uploader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  transition: border-color 0.3s;
+  height: 175px; /* Установите желаемую высоту */
+  width: 275px;
+}
+
+.upload-content {
+  color: #bbb;
+  width: 100%;
+}
+
+  
+.uploader.active {
+  border-color: #86b7fe;
+}
+
+.upload-label {
+  cursor: pointer;
+}

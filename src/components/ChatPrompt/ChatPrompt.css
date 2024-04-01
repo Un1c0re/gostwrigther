@@ -1,0 +1,44 @@
+/* ChatPrompt.css */
+.chat-prompt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.chat-input {
+  height: 55px;
+  width: 50vw;
+  min-width: 500px;
+  background: transparent;
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+  font-size: 1vw;
+}
+  
+.button-container {
+  border-radius: 4px;
+  overflow: hidden;
+}   
+
+.send-button {
+  padding: 10px 20px;
+  height: 55px;
+  background: none;
+  color: white;
+  border: 2px solid transparent;
+  border-image: linear-gradient(145deg, #100898, #35ffff) 1;
+  border-radius: 10px;
+  cursor: pointer;
+
+  font-size: 1vw;
+}
+
+.send-button:hover {
+  background: linear-gradient(145deg, #100898, #35ffff);
+}
+  
